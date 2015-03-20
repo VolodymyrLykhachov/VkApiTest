@@ -28,7 +28,7 @@ public class VKapi {
     private String response_type = "token";
     private String access_token;
     private String email = "v_lykhachov@mail.ru";//тут должен быть прописан email
-    private String pass = "Vfe'hkfn";//тут должен быть прописан пароль
+    private String pass = "Vfe'hkfN";//тут должен быть прописан пароль
 
     public void setConnection() throws IOException, URISyntaxException {
         //Код получения token'a
