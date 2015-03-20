@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="jsch-0.1.51">
+    <CLASSES>
+      <root url="jar://D:/Downloads/httpcomponents-client-4.4-bin/httpcomponents-client-4.4/lib/httpcore-4.4.jar!/" />
+      <root url="jar://D:/Downloads/httpcomponents-client-4.4-bin/httpcomponents-client-4.4/lib/httpclient-4.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
