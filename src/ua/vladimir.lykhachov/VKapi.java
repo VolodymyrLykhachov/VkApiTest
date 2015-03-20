@@ -1,29 +1,23 @@
-package com.ukrtelecom.dnepr;
-
-import java.net.URISyntaxException;
-import java.security.NoSuchAlgorithmException;
-import java.io.IOException;
-import java.net.MalformedURLException;
-
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
-import java.net.URL;
-
-import java.awt.*;
-import java.awt.event.*;
-
+package ua.vladimir.lykhachov;
 
 import org.apache.http.HttpResponse;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpPost;
-//import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.impl.client.HttpClientBuilder;
 
-
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.net.MalformedURLException;
 import java.net.URI;
+import java.net.URISyntaxException;
+import java.net.URL;
+import java.security.NoSuchAlgorithmException;
 
-
-import org.apache.http.client.ClientProtocolException;
+//import org.apache.http.impl.client.DefaultHttpClient;
 
 
 public class VKapi {
@@ -86,7 +80,7 @@ public class VKapi {
         access_token = HeaderLocation.split("#")[1].split("&")[0].split("=")[1];
     }
 
-    public String getNewMessage() throws ClientProtocolException, IOException, NoSuchAlgorithmException, URISyntaxException {
+    public String getNewMessage() throws IOException, NoSuchAlgorithmException, URISyntaxException {
         //Ранее описанный код получения списка сообщений
         //формируем строку запроса
         String url = "https://api.vk.com/method/" +
